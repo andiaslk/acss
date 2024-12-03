@@ -2725,14 +2725,21 @@ header {
             }
             .prices{
                 position: relative;
-            top: -1060px;
+            top: -1080px;
             left: 95px;
             .coco-p{
-                margin-top: 10px;
+                margin-top: 1em;
             }
             .popoy-p{
-                margin-top: -20px;
+                margin-top: -1.5em;
             }
+            .cleo-p{
+                margin-top: -0em;
+            }
+            .bella-p{
+                margin-top: 1em;
+            }
+            
             
             }
             
@@ -2747,7 +2754,7 @@ header {
         }
 
 
-        .puppies-right{
+        .adult-right{
             margin-top: -15em;
             .twinkle{
                 h2{
@@ -2800,21 +2807,21 @@ header {
         }
         .prices{
             position: relative;
-            top: -955px;
+            top: -960px;
             left: 90px;
             font-size: 15px;
             height: 0;
             .twinkle-p{
-                margin-top: -5px;
+                margin-top: 1em;
             }
             .snow-p{
-                padding-top: 10px;
+                padding-top: .5em;
             }
             .mochi-p{
-                padding-top: 5px;
+                margin-top: -1em;
             }
             .oreo-p{
-                margin-top: -15px;
+                margin-top: 1em;
             }
         }
     }
@@ -3814,18 +3821,20 @@ header {
             }
             .prices{
                 position: relative;
-            top: -1025px;
+            top: -1060px;
             left: 95px;
             .coco-p{
-                margin-top: -5px;
+                margin-top: 1em;
             }
             .popoy-p{
-                margin-top: -35px;
+                margin-top: -1em;
             }
             .cleo-p{
-                margin-top: -15px;
+                margin-top: -1em;
             }
-            
+            .bella-p{
+                margin-top: 1em;
+            }
             }
             
         }
@@ -3904,13 +3913,19 @@ header {
         }
         .prices{
             position: relative;
-        top: -880px;
+        top: -910px;
         left: 90px;
-        .mochi-p{
-            margin-top: -30px;
+        .twinkle-p{
+            margin-top: 1em;
         }
-        .popoy-p{
-            margin-top: -20px;
+        .snow-p{
+            margin-top: 1em;
+        }
+        .mochi-p{
+            margin-top: -1em;
+        }
+        .oreo-p{
+            margin-top: -1em;
         }
         
         }
