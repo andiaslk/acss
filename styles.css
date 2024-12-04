@@ -2079,7 +2079,7 @@ header {
     } */
     header{
         width: 100%;
-        height: 11.5vh;
+        height: 12vh;
         a{
            img{
             width: 70px;
@@ -2179,7 +2179,7 @@ header {
         width: 150px;
         height: auto;
         text-align: center;
-        left: 27%; /* Center the dropdown relative to the button */
+        left: 28.5%; /* Center the dropdown relative to the button */
         transform: translateX(-50%);
         hr {
             border: 1px solid #FDEED9;
@@ -2235,7 +2235,7 @@ header {
     
     
         margin-top: 1.5em;
-        height: 100vh;
+        height: 120vh;
         column-gap: 10em;
         .d-text {
             margin: 45px 0px 0 25px;
@@ -2419,13 +2419,14 @@ header {
     .contacts{
         margin: 150px auto 50px;
         width: 80%;
-        height: 155vh;
+        height: auto;
+        margin-bottom: 20px;
         background-color: #7E654E;
         border-radius: 15px;
         padding: 15px 40px;
         h1{
             color: #FDEED9;
-            font-size: 45px;
+            font-size: 5px;
             letter-spacing: .05em;
             text-align: center;
     
@@ -2539,15 +2540,18 @@ header {
         footer{
 
             text-align: center;
-            margin-top: -15px;
+            margin-top: -50px;
             img{
                 position: relative;
-                top: 2em;
-                left: -9em;
+                top: 3em;
+                left: -6.5em;
+                width: 90px;
+                height: 50px;
             }
             h1{
-                margin-left: 3em;
-                font-size: 25px;
+                margin-left: 4em;
+                font-size: 20px;
+                margin-top: 15px;
             }
             hr{
                 color: white;
@@ -2562,6 +2566,7 @@ header {
                 text-decoration: none;
             }
         }
+        
     }
     
     /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -2592,7 +2597,7 @@ header {
             .mission{
                 background-color: #f8b4c696;
                 width: 60vw;
-                height: 30vh;
+                height: 40vh;
                 border-radius: 15px;
                 margin-top: 10px;
                 padding: 20px;
@@ -2605,7 +2610,7 @@ header {
             .vision{
                 background-color: #f8b4c696;
                 width: 60vw;
-                height: 34vh;
+                height: 40vh;
                 border-radius: 15px;
                 margin-top: 1em;
                 margin-left: 0px;
@@ -2618,10 +2623,10 @@ header {
     
         }
         .proj{
-            width: 70vw;
-            height: 220vh;
-            padding: 50px;
-            margin-bottom: 1em;
+            width: 80vw;
+            height: 245vh;
+            padding: 25px;
+            margin-bottom: 20px;
             h1{
                 text-align: center;
             }
@@ -2633,7 +2638,7 @@ header {
                 color: #FDEED9;
             }
             p {
-                margin-top: 1em;
+                margin-top: 0em;
             }
             .pictures{
                 position: absolute;
@@ -2641,7 +2646,7 @@ header {
                 display: flex;
                 flex-direction: column;
                 gap: 113px;
-                left: -105px;
+                left: -126px;
                 img{
                     margin: 0 13px;
                     border-radius: 100px;
@@ -2653,7 +2658,7 @@ header {
                 font-size: 13px;
                 text-align: center;
                 justify-content: center;
-                gap: 125px;
+                gap: 140px;
                 margin: 110px 0;
                 color: #573C27;
             }
@@ -2728,10 +2733,10 @@ header {
             top: -1080px;
             left: 95px;
             .coco-p{
-                margin-top: 1em;
+                margin-top: 0px;
             }
             .popoy-p{
-                margin-top: -1.5em;
+                margin-top: 1em;
             }
             .cleo-p{
                 margin-top: -0em;
@@ -2807,7 +2812,7 @@ header {
         }
         .prices{
             position: relative;
-            top: -960px;
+            top: -990px;
             left: 90px;
             font-size: 15px;
             height: 0;
@@ -2818,7 +2823,7 @@ header {
                 padding-top: .5em;
             }
             .mochi-p{
-                margin-top: -1em;
+                margin-top: 1em;
             }
             .oreo-p{
                 margin-top: 1em;
@@ -2843,7 +2848,7 @@ header {
         }
     }
     .aform-container {
-        width: 90%;
+        width: 96%;
         height: auto;
         form {
             margin: 0 auto;
@@ -2957,7 +2962,8 @@ header {
         margin: 50px auto;
         background-color: #f8b4c6a7;
         width: 85%;
-        height: 123xvh;
+        height: 138vh;
+        margin-bottom: 20px;
         border-radius: 18px;
         h1{
             font-size: 45px;
@@ -2968,7 +2974,7 @@ header {
         }
     }
     .dform-container {
-        width: 90%;
+        width: 96%;
         form {
             
             margin: 0 auto;
@@ -3087,6 +3093,7 @@ header {
     
       }
 }
+
 @media (max-width: 360px){
     /*header {
         img{
