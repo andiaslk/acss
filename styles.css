@@ -2508,7 +2508,7 @@ nav .show {
             font-size: 35px;
         }
         .step-1{
-            margin-left: 150px;
+            margin-left: 200px;
     
             img{
                 position: relative;
@@ -2525,12 +2525,12 @@ nav .show {
             p{
                 width: fit-content;
 
-                margin-left: -140px;
+                margin-left: -165px;
                 font-size: 17px;
             }
             
         }.step-2{
-            margin-left: 150px;
+            margin-left: 200px;
     
             img{
                 position: relative;
@@ -2543,19 +2543,19 @@ nav .show {
             h2{
                 width: fit-content;
 
-                margin: 40px 0px 0px -140px ;
+                margin: 40px 0px 0px -160px ;
                 font-size: 19px;
             }
             p{
                 width: fit-content;
 
                 margin-right: 0px;
-                margin-left: -140px;
+                margin-left: -160px;
                 font-size: 17px;
             }
         }
         .step-3{
-            margin-left: 150px;
+            margin-left: 200px;
     
             img{
                 position: relative;
@@ -2566,18 +2566,18 @@ nav .show {
                 margin: -90px 0 0 40px ;
             }
             h2{
-                margin: 30px 0px 0px -215px ;
+                margin: 30px 0px 0px -210px ;
                 font-size: 19px;
             }
             p{
                 width: fit-content;
 
-                margin-left: -140px;
+                margin-left: -160px;
                 font-size: 17px;
             }
             
         }.step-4{
-            margin-left: 150px;
+            margin-left: 200px;
     
             img{
                 position: relative;
@@ -2590,14 +2590,14 @@ nav .show {
             h2{
                 width: fit-content;
 
-                margin: 40px 0px 0px -140px ;
+                margin: 40px 0px 0px -160px ;
                 font-size: 19px;
             }
             p{
                 width: fit-content;
 
                 margin-right: 0px;
-                margin-left: -140px;
+                margin-left: -160px;
                 font-size: 17px;
             }
             
@@ -2840,6 +2840,7 @@ nav .show {
             width: 80vw;
             height: 245vh;
             padding: 25px;
+            padding-bottom: 25px;
             margin-bottom: 20px;
             h1{
                 text-align: center;
