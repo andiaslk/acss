@@ -1116,7 +1116,7 @@ nav .show {
 
 @media (max-width: 480px){
     body{
-        overflow-x: hidden
+        overflow-x: hidden;
     }
     header{
         width: 100%;
@@ -2237,7 +2237,7 @@ nav .show {
 
 @media (max-width: 360px){
     body{
-        overflow-x: hidden
+        overflow-x: hidden;
     }
     header{
         width: 100%;
