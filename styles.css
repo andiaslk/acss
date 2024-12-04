@@ -2239,7 +2239,6 @@ nav .show {
     html, body{
         overflow-x: hidden;
         width: 100%;
-        clip-path: inset(0 0 0 0);
   position: relative;
         
     }
