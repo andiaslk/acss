@@ -3797,190 +3797,205 @@ header {
     
     /*-------------------------------------------------------------------------------------------------------------------------------------*/
     
-        .adult-section{
-            display: flex;
-            flex-direction: column;
-            width: 75%;
-
-            .adult-left{
-                h2{
-                    font-size: 19px;
-                }
-                h1{
-                    font-size: 30px;
-                }
-                
-                p{
-                    width: fit-content;
-                    font-size: 15px;
-
-                }
-            }
-
-
-            .adult-right{
-                margin-top: -15em;
-                .coco{
-                    h2{
-                        margin-left: 4em;
-                    }
-                    p{
-                        margin-left: 7em;
-                        font-size: 14px;
-                    }
-                    img{
-                        margin-left: -1em;
-                    }
-                }
-                .popoy{
-                    h2{
-                        margin-left: 4em;
-                    }
-                    p{
-                        margin-left: 7em;
-                        font-size: 14px;
-                    }
-                    img{
-                        margin-left: -1em;
-                    }
-                }
-                .cleo{
-                    h2{
-                        margin-left: 4em;
-                    }
-                    p{
-                        margin-left: 7em;
-                        font-size: 14px;
-                    }
-                    img{
-                        margin-left: -1em;
-                    }
-                }
-                .bella{
-                    h2{
-                        margin-left: 4em;
-                    }
-                    p{
-                        margin-left: 7em;
-                        font-size: 14px;
-                    }
-                    img{
-                        margin-left: -1em;
-                    }
-                }
-            }
-            .prices{
-                position: relative;
-            top: -1060px;
-            left: 95px;
-            .coco-p{
-                margin-top: 1em;
-            }
-            .popoy-p{
-                margin-top: -1em;
-            }
-            .cleo-p{
-                margin-top: -1em;
-            }
-            .bella-p{
-                margin-top: 1em;
-            }
-            }
-            
-        }
-    .puppies-section{
-        display: flex;
+    .adult-section{
         flex-direction: column;
         width: 75%;
 
         .adult-left{
+            margin: 0 0 0 -50px ;
             h2{
-                font-size: 19px;
+                font-size: 17px;
             }
             h1{
-                font-size: 30px;
+                font-size: 35px;
             }
-            
             p{
                 width: fit-content;
-                font-size: 15px;
-
+                font-size: 16px;
             }
         }
 
 
         .adult-right{
             margin-top: -15em;
-            
-            .twinkle{
+            .coco{
                 h2{
-                    margin-left: 4em;
+                    margin-left: 4.5em;
+                    font-size: 18px;
+                    
                 }
                 p{
-                    margin-left: 7em;
+                    margin-left: 6em;
                     font-size: 14px;
                 }
                 img{
                     margin-left: -1em;
                 }
             }
-            .snow{
+            .popoy{
                 h2{
-                    margin-left: 4em;
+                    margin-left: 4.5em;
+                    font-size: 18px;
                 }
                 p{
-                    margin-left: 7em;
+                    margin-left: 6em;
                     font-size: 14px;
                 }
                 img{
                     margin-left: -1em;
                 }
             }
-            .mochi{
+            .cleo{
                 h2{
-                    margin-left: 4em;
+                    margin-left: 4.5em;
+                    font-size: 18px;
                 }
                 p{
-                    margin-left: 7em;
+                    margin-left: 6em;
                     font-size: 14px;
                 }
                 img{
                     margin-left: -1em;
                 }
             }
-            .oreo{
+            .bella{
                 h2{
-                    margin-left: 4em;
+                    margin-left: 4.5em;
+                    font-size: 18px;
                 }
                 p{
-                    margin-left: 7em;
+                    margin-left: 6em;
                     font-size: 14px;
                 }
                 img{
                     margin-left: -1em;
                 }
             }
-        }
-        .prices{
-            position: relative;
-        top: -910px;
-        left: 90px;
-        .twinkle-p{
-            margin-top: 1em;
-        }
-        .snow-p{
-            margin-top: 1em;
-        }
-        .mochi-p{
-            margin-top: -1em;
-        }
-        .oreo-p{
-            margin-top: -1em;
+            .coco-p{
+                right: 215px;
+                top: 110px;
+            }
+            .popoy-p{
+                right: 215px;
+                top: 80px;
+            }
+            .cleo-p{
+                right: 215px;
+                top: 90px;
+            }
+             .bella-p{
+                right: 215px;
+                top: 90px;
+            }
         }
         
+        
+        
+        
+        
+        
+    }
+.puppies-section{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    .adult-left{
+        margin: 0 0 0 -50px ;
+        h2{
+            font-size: 17px;
+        }
+        h1{
+            font-size: 35px;
+        }
+        p{
+            width: fit-content;
+            font-size: 16px;
         }
     }
+
+    .adult-right{
+        margin-bottom: 50px;
+        margin-top: -15em;
+        .twinkle{
+            h2{
+                margin-left: 4.5em;
+                font-size: 18px;
+                
+            }
+            p{
+                margin-right: 0;
+                margin-left: 6em;
+                font-size: 14px;
+            }
+            img{
+                margin-left: -1em;
+            }
+        }
+        .snow{
+            h2{
+                margin-left: 4.5em;
+                font-size: 18px;
+            }
+            p{
+                margin-right: 0;
+                margin-left: 6em;
+                font-size: 14px;
+            }
+            img{
+                margin-left: -1em;
+            }
+        }
+        .mochi{
+            h2{
+                margin-left: 4.5em;
+                font-size: 18px;
+            }
+            p{
+                margin-right: 0;
+                margin-left: 6em;
+                font-size: 14px;
+            }
+            img{
+                margin-left: -1em;
+            }
+        }
+        .oreo{
+            
+            h2{
+                margin-left: 4.5em;
+                font-size: 18px;
+            }
+            p{
+                margin-right: 0;
+                margin-left: 6em;
+                font-size: 14px;
+            }
+            img{
+                margin-left: -1em;
+            }
+        }
+        .twinkle-p{
+            right: 210px;
+            top: 70px;
+        }
+        .snow-p{
+            right: 210px;
+            top:100px;
+        }
+        .mochi-p{
+            right: 210px;
+            top: 110px;
+        }
+         .oreo-p{
+            right: 210px;
+            top: 110px;
+        }
+    }
+
     
+
+
+}
     /*----------------------------------------------------------------------------------------------------------------------------------*/
     
     .aform-container{
