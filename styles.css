@@ -1739,13 +1739,31 @@ nav .show {
                 margin-top: 0em;
             }
             .pictures{
-                position: absolute;
-                margin: 10px 255px;
+                margin: 10px 0;
                 display: flex;
                 flex-direction: column;
-                gap: 7em;
-                left: -126px;
+                .ad-p{
+                    left: 90px;
+                }
+                .vj-p{
+                    top: 7em;
+                    left: 90px;
+                }
+                .zm-p{
+                    top: 14em;
+                    left: 90px;
+                }
+                .dd-p{
+                    top: 21em;
+                    left: 90px;
+                }
+                .jc-p{
+                    top: 28em;
+                    left: 90px;
+                }
+
                 img{
+                    position: relative;
                     margin: 0 13px;
                     border-radius: 100px;
                 }
@@ -1753,6 +1771,7 @@ nav .show {
             .names{
                 display: flex;
                 flex-direction: column;
+                margin-top: -540px;
                 .ad{
                     margin-top: 10em;
                 }
