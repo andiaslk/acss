@@ -2840,8 +2840,8 @@ nav .show {
             width: 80vw;
             height: 245vh;
             padding: 25px;
-            padding-bottom: 25px;
-            margin-bottom: 50px;
+            padding-bottom: 35px;
+            margin-bottom: 20px;
             h1{
                 text-align: center;
             }
